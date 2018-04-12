@@ -7,30 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9987A7A1207EAC2100ECFB92 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987A7A0207EAC2100ECFB92 /* main.swift */; };
-		9987A7A8207EAD6100ECFB92 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987A7A7207EAD6100ECFB92 /* Car.swift */; };
+		996914C9207ECEA0007EB651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996914C8207ECEA0007EB651 /* AppDelegate.swift */; };
+		996914D0207ECEA0007EB651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996914CF207ECEA0007EB651 /* Assets.xcassets */; };
+		996914D3207ECEA0007EB651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996914D1207ECEA0007EB651 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		9987A79B207EAC2100ECFB92 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		9987A79D207EAC2100ECFB92 /* Classes and Objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classes and Objects"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9987A7A0207EAC2100ECFB92 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		9987A7A7207EAD6100ECFB92 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		996914C5207ECEA0007EB651 /* flickerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		996914C8207ECEA0007EB651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		996914CF207ECEA0007EB651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		996914D2207ECEA0007EB651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		996914D4207ECEA0007EB651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9987A79A207EAC2100ECFB92 /* Frameworks */ = {
+		996914C2207ECEA0007EB651 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,98 +31,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9987A794207EAC2100ECFB92 = {
+		996914BC207ECEA0007EB651 = {
 			isa = PBXGroup;
 			children = (
-				9987A79F207EAC2100ECFB92 /* Classes and Objects */,
-				9987A79E207EAC2100ECFB92 /* Products */,
+				996914C7207ECEA0007EB651 /* flickerSearch */,
+				996914C6207ECEA0007EB651 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9987A79E207EAC2100ECFB92 /* Products */ = {
+		996914C6207ECEA0007EB651 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9987A79D207EAC2100ECFB92 /* Classes and Objects */,
+				996914C5207ECEA0007EB651 /* flickerSearch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9987A79F207EAC2100ECFB92 /* Classes and Objects */ = {
+		996914C7207ECEA0007EB651 /* flickerSearch */ = {
 			isa = PBXGroup;
 			children = (
-				9987A7A0207EAC2100ECFB92 /* main.swift */,
-				9987A7A7207EAD6100ECFB92 /* Car.swift */,
+				996914C8207ECEA0007EB651 /* AppDelegate.swift */,
+				996914CF207ECEA0007EB651 /* Assets.xcassets */,
+				996914D1207ECEA0007EB651 /* LaunchScreen.storyboard */,
+				996914D4207ECEA0007EB651 /* Info.plist */,
 			);
-			path = "Classes and Objects";
+			path = flickerSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9987A79C207EAC2100ECFB92 /* Classes and Objects */ = {
+		996914C4207ECEA0007EB651 /* flickerSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9987A7A4207EAC2100ECFB92 /* Build configuration list for PBXNativeTarget "Classes and Objects" */;
+			buildConfigurationList = 996914D7207ECEA0007EB651 /* Build configuration list for PBXNativeTarget "flickerSearch" */;
 			buildPhases = (
-				9987A799207EAC2100ECFB92 /* Sources */,
-				9987A79A207EAC2100ECFB92 /* Frameworks */,
-				9987A79B207EAC2100ECFB92 /* CopyFiles */,
+				996914C1207ECEA0007EB651 /* Sources */,
+				996914C2207ECEA0007EB651 /* Frameworks */,
+				996914C3207ECEA0007EB651 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Classes and Objects";
-			productName = "Classes and Objects";
-			productReference = 9987A79D207EAC2100ECFB92 /* Classes and Objects */;
-			productType = "com.apple.product-type.tool";
+			name = flickerSearch;
+			productName = flickerSearch;
+			productReference = 996914C5207ECEA0007EB651 /* flickerSearch.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9987A795207EAC2100ECFB92 /* Project object */ = {
+		996914BD207ECEA0007EB651 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = LittleCatLabs;
 				TargetAttributes = {
-					9987A79C207EAC2100ECFB92 = {
+					996914C4207ECEA0007EB651 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 9987A798207EAC2100ECFB92 /* Build configuration list for PBXProject "Classes and Objects" */;
+			buildConfigurationList = 996914C0207ECEA0007EB651 /* Build configuration list for PBXProject "flickerSearch" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 9987A794207EAC2100ECFB92;
-			productRefGroup = 9987A79E207EAC2100ECFB92 /* Products */;
+			mainGroup = 996914BC207ECEA0007EB651;
+			productRefGroup = 996914C6207ECEA0007EB651 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9987A79C207EAC2100ECFB92 /* Classes and Objects */,
+				996914C4207ECEA0007EB651 /* flickerSearch */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		996914C3207ECEA0007EB651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996914D3207ECEA0007EB651 /* LaunchScreen.storyboard in Resources */,
+				996914D0207ECEA0007EB651 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9987A799207EAC2100ECFB92 /* Sources */ = {
+		996914C1207ECEA0007EB651 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9987A7A8207EAD6100ECFB92 /* Car.swift in Sources */,
-				9987A7A1207EAC2100ECFB92 /* main.swift in Sources */,
+				996914C9207ECEA0007EB651 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		996914D1207ECEA0007EB651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				996914D2207ECEA0007EB651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		9987A7A2207EAC2100ECFB92 /* Debug */ = {
+		996914D5207ECEA0007EB651 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -160,7 +176,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -179,16 +195,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		9987A7A3207EAC2100ECFB92 /* Release */ = {
+		996914D6207ECEA0007EB651 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +233,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -230,55 +246,66 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9987A7A5207EAC2100ECFB92 /* Debug */ = {
+		996914D8207ECEA0007EB651 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y36G35L9AQ;
+				INFOPLIST_FILE = flickerSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlecatlabs.flickerSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9987A7A6207EAC2100ECFB92 /* Release */ = {
+		996914D9207ECEA0007EB651 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y36G35L9AQ;
+				INFOPLIST_FILE = flickerSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlecatlabs.flickerSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9987A798207EAC2100ECFB92 /* Build configuration list for PBXProject "Classes and Objects" */ = {
+		996914C0207ECEA0007EB651 /* Build configuration list for PBXProject "flickerSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9987A7A2207EAC2100ECFB92 /* Debug */,
-				9987A7A3207EAC2100ECFB92 /* Release */,
+				996914D5207ECEA0007EB651 /* Debug */,
+				996914D6207ECEA0007EB651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9987A7A4207EAC2100ECFB92 /* Build configuration list for PBXNativeTarget "Classes and Objects" */ = {
+		996914D7207ECEA0007EB651 /* Build configuration list for PBXNativeTarget "flickerSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9987A7A5207EAC2100ECFB92 /* Debug */,
-				9987A7A6207EAC2100ECFB92 /* Release */,
+				996914D8207ECEA0007EB651 /* Debug */,
+				996914D9207ECEA0007EB651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9987A795207EAC2100ECFB92 /* Project object */;
+	rootObject = 996914BD207ECEA0007EB651 /* Project object */;
 }
